@@ -1,0 +1,23 @@
+{
+  "name": "twitter-rss-scraper-without-auth",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node .",
+    "start": "pm2 start index.js && pm2 log",
+    "restart": "pm2 restart index.js && pm2 log",
+    "stop": "pm2 stop index.js && pm2 log",
+    "log": "pm2 log", 
+    "list": "pm2 list"
+  },
+  "author": "Jason Vu",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.10",
+    "fs": "^0.0.1-security",
+    "node-fetch": "^2.6.6",
+    "xml-formatter": "^2.5.1"
+  }
+}
