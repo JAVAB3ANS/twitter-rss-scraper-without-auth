@@ -31,7 +31,7 @@
 
 6) Do `npm start` which will start the process and show you some messages that would be logged once an XML file has been created/updated.
 
-7) The XML feed files will be saved into `/feeds/` directory within the same location as this folder `/tweet-rss-scraper-without-auth`.
+7) The XML feed files will be saved into `/feeds/` directory within the same location as this folder `/twitter-rss-scraper-without-auth/`.
 ```
 
 # Why?
