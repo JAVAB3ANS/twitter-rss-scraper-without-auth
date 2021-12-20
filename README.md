@@ -12,7 +12,7 @@
 
     - Prevents Twitter from tracking your IP or JavaScript fingerprint.
 
-    - No rate limits or developer account required.
+    - No rate limits or developer account with credentials required.
 
     - Can customize which Twitter handles you can track in `feeds.js` and the time intervals in `index.js` for monitoring accounts respectively.
 
