@@ -1,5 +1,9 @@
 # Twitter RSS Feed Scraper Without Authentication
 
+<p align="center">
+    <img src="https://images.ctfassets.net/lzny33ho1g45/twitter-rss-feed-p-img/97dea4e82514634361d9cc86a2fdfc2b/file.png?w=1520&fm=jpg&q=30&fit=thumb&h=760" width="600">
+</p> 
+
 - Command-line application using Node.js that scrapes XML feeds from Nitter, the free and open source alternative Twitter front-end focused on privacy.
 
     - No advertisements.
@@ -32,4 +36,4 @@
 
 # Why?
 
-This is due to Twitter's removal of their RSS feed function from their public user interface. Unlike many other popular applications such as Reddit and Facebook, Twitter no longer hosts an RSS feed. Instead of manually checking each page to see if there are any tweets/retweets at any given time, online users can now simply check their '/feeds/' directory to sporadically monitor for automatic news updates.
+This is due to Twitter's removal of their RSS feed function from their public user interface. Unlike many other popular applications such as Reddit and Facebook, Twitter no longer hosts an RSS feed. Instead of manually checking each page to see if there are any tweets/retweets at any given time, online users can now simply check their `/feeds/` directory to sporadically monitor for automatic news updates.
