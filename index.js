@@ -25,7 +25,7 @@ if (feedsList.length === 0) {
 					"encoding": "utf-8"
 				});
                 
-				stream.write(body.replace(/<!\[CDATA\[|\]\]>/gi, '').replace(/<br>/gi, '<br/>').replace(/<\/source>/gi, '></source>').replace(/autoplay muted loop/gi, 'autoplay="muted loop"').replace(/&/gi, '&amp;').replace(/<video>/gi, '</video></source>'));
+				stream.write(body.replace(/<!\[CDATA\[|\]\]>/gi, '').replace(/<br>/gi, '<br/>').replace(/<\/source>/gi, '></source>').replace(/autoplay muted loop/gi, 'autoplay="muted loop"').replace(/&/gi, '&amp;').replace(/<\/video>/gi, '</source></video>'));
 				// removes <![CDATA[]]> tags from XML, fixes autoplay attribute of <video> tag and <video> opening and ending tag mismatch, <source>, ampersands, and <br> tags 
 			} else {
 				console.log("Unable to find the mentioned user. Please make sure you have entered the correct user!");
